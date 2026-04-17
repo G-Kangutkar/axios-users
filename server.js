@@ -8,5 +8,5 @@ app.use(express.json())
 app.use('/user',todo)
 
 app.listen(7900,()=>{
-    console.log('running')
+    console.log('server is running')
 })
